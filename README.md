@@ -7,9 +7,11 @@
 
 Небольшое приложение на [Vue](https://vuejs.org/) с использованием UI-библиотеки
 [Ant Design](https://antdv.com/). Отображает таблицу со списком сделок, получая
-ответ от [сервера](https://github.com/sizieks/rocket-backend).
+ответ от [сервера](https://github.com/sizieks/rocket-backend). Поиск позволяет
+получить отфильтрованный на сервере результат по табличному столбцу
+`ответственный`.
 
-Пример объекта:
+### Пример объекта
 
 ```javascript
 {
@@ -26,6 +28,14 @@
 },
 ```
 
-### Showcase
+## Screenshots
 
-![showcase](https://github.com/sizieks/rocket-frontend/assets/2656072/0e495b82-20e3-4c43-9b85-de097498b063)
+Desktop @ 1440px
+
+### Initial
+
+![showcase-0](https://github.com/sizieks/rocket-frontend/assets/2656072/847a8a49-9413-4f41-a190-67192e5ef7be)
+
+### Query
+
+![showcase-1](https://github.com/sizieks/rocket-frontend/assets/2656072/e33f6dcb-9b9b-4d6c-ad06-bffee7db83ff)
