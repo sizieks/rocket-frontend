@@ -1,18 +1,31 @@
-# Vue 3 + TypeScript + Vite
+# Rocket frontend
 
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+Фронтенд часть тестового задания, с бэкенд частью можно ознакомиться
+[здесь](https://github.com/sizieks/rocket-backend).
 
-## Recommended IDE Setup
+## Описание
 
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+Небольшое приложение на [Vue](https://vuejs.org/) с использованием UI-библиотеки
+[Ant Design](https://antdv.com/). Отображает таблицу со списком сделок, получая
+ответ от [сервера](https://github.com/sizieks/rocket-backend).
 
-## Type Support For `.vue` Imports in TS
+Пример объекта:
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin) to make the TypeScript language service aware of `.vue` types.
+```javascript
+{
+  "id": "1hiamjbte067dc10fd27db",
+  "name": "Случайная сделка #3",
+  "price": 2276,
+  "user": "Ермолай Павлов",
+  "created_at": "2002-09-20T04:59:45.323Z",
+  "status_name": "Успешно реализовано",
+  "status_color": "#ffc8c8",
+  "contact_name": "Глеб Морозов",
+  "contact_phone": "+74433253382",
+  "contact_email": "dolorsitamet@lorem.ipsum"
+},
+```
 
-If the standalone TypeScript plugin doesn't feel fast enough to you, Volar has also implemented a [Take Over Mode](https://github.com/johnsoncodehk/volar/discussions/471#discussioncomment-1361669) that is more performant. You can enable it by the following steps:
+### Showcase
 
-1. Disable the built-in TypeScript Extension
-   1. Run `Extensions: Show Built-in Extensions` from VSCode's command palette
-   2. Find `TypeScript and JavaScript Language Features`, right click and select `Disable (Workspace)`
-2. Reload the VSCode window by running `Developer: Reload Window` from the command palette.
+![showcase](https://github.com/sizieks/rocket-frontend/assets/2656072/0e495b82-20e3-4c43-9b85-de097498b063)
