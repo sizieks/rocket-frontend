@@ -32,6 +32,3 @@ onBeforeMount(async () => {
   loading.value = false;
 });
 </script>
-
-<style scoped></style>
-./types

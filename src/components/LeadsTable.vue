@@ -144,6 +144,7 @@ const formatDate = (
 .input-search {
   width: 200px;
 }
+
 .contact-row {
   width: 240px;
   margin-left: 48px;
@@ -162,4 +163,3 @@ const formatDate = (
   margin-right: 8px;
 }
 </style>
-../types
